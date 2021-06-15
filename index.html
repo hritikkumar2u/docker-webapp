@@ -2,7 +2,7 @@
 function cmd()
 {
     var objXHR = new XMLHttpRequest();
-    objXHR.open("GET", "http://192.168.43.87/cgi-bin/cal.py?x="+document.getElementById('input').value,"true");
+    objXHR.open("GET", "http://192.168.00.00/cgi-bin/cal.py?x="+document.getElementById('input').value,"true");
     objXHR.send();
 
     objXHR.onload = function ()
